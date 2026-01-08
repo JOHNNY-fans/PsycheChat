@@ -99,7 +99,6 @@ prompt_seeker = '''# 任务说明：
     "response": xxx, # 来访者的回复
 }'''
 
-# 角色卡片文本
 def get_card_text(role_card):
     return (
         f"性别：{role_card['性别']}\n"
